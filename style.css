@@ -16,19 +16,49 @@ img {
 
 article {
     margin: 10px;
+    margin-top: 20px;
     border-bottom: 1px solid;
     border-color: gray;
 }
 
-blockquotes {
+
+#ID1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#ID2 {
+    padding: 2px;
+}
+
+
+h1 {
+    font-size: 16px;
+    margin-inline-start: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-inline-start: 10px;
     color: gray;
     font-size: 14px;
     flex-direction: row;
 }
 
+#icon {
+position: relative;
+top: 30px;
+right: -250px;
+}
+
 ul {
     display: flex;
-justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 0px;
 }
 
 button {
